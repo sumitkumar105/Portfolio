@@ -13,7 +13,7 @@ const Footer = () => {
         }}
       >
         <Typography variant="h6" sx={{ mb: 2, color: "white" }}>
-          © 2023 Ganesh Gajarla. All rights reserved.
+          © 2024 Sunmitkumar Deshpande. All rights reserved.
         </Typography>
       </Box>
     </>
