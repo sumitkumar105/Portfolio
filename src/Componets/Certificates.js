@@ -7,7 +7,13 @@ const Certificates = () => {
     <Box sx={{ width: "100%", backgroundColor: "grey", paddingTop: "10px" }}>
       <Typography
         variant="h5"
-        sx={{ textAlign: "center", mb: 2, padding: "10px" }}
+        sx={{
+          textAlign: "center",
+          mb: 2,
+          padding: "10px",
+          color: "white",
+          fontWeight: "bold",
+        }}
       >
         Certificates
       </Typography>

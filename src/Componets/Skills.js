@@ -12,7 +12,15 @@ const Skills = () => {
           width: "auto",
         }}
       >
-        <Typography variant="h4" sx={{ textAlign: "center" }}>
+        <Typography
+          variant="h5"
+          sx={{
+            textAlign: "center",
+            mb: 3,
+            color: "white",
+            fontWeight: "bold",
+          }}
+        >
           Skills
         </Typography>
         <Grid container justifyContent="center" alignItems="center">
@@ -33,12 +41,15 @@ const Skills = () => {
                       alignItems="center"
                       spacing={2}
                     >
-                      <Typography>{item.skill}</Typography>
+                      <Typography variant="h5" sx={{ color: "white" }}>
+                        {item.skill}
+                      </Typography>
                       <img
-                        height="100px"
-                        width="100px"
+                        height="80px"
+                        width="80px"
                         src={item.imageUrl}
                         alt="pitcure"
+                        style={{ borderRadius: "10px" }}
                       />
                     </Stack>
                     <Divider height="10px" />

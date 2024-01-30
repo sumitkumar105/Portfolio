@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
         <Box sx={{ width: "100%" }}>
           <img
             height="5%"
-            Style={{ borderTopRightRadius: "5px" }}
+            style={{ borderRadius: "5px 5px 0px 0px" }}
             width="100%"
             src={img}
             alt="project"

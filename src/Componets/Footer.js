@@ -13,7 +13,7 @@ const Footer = () => {
         }}
       >
         <Typography variant="h6" sx={{ mb: 2, color: "white" }}>
-          © 2024 Sunmitkumar Deshpande. All rights reserved.
+          © 2024 Sumitkumar Deshpande. All rights reserved.
         </Typography>
       </Box>
     </>
