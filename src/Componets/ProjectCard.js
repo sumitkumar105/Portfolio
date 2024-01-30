@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
   console.log(description);
   return (
     <>
-      <Paper elevation={3} sx={{ width: "100%", margin: "20px" }}>
+      <Paper elevation={3} sx={{ margin: "20px" }}>
         <Box sx={{ width: "100%" }}>
           <img
             height="5%"

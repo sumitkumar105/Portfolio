@@ -19,7 +19,6 @@ const Skills = () => {
           <Grid item sm={12} lg={7}>
             <Paper
               sx={{
-                width: "100%",
                 padding: "20px",
                 backgroundColor: "#17a2b8!important",
                 border: "1px solid red",

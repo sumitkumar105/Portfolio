@@ -11,7 +11,6 @@ const About = () => {
           <Grid item sm={12} lg={7}>
             <Paper
               sx={{
-                width: "100%",
                 padding: "20px",
                 backgroundColor: "orange",
                 border: "1px solid blue",
